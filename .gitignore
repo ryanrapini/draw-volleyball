@@ -13,3 +13,9 @@ yarn-error.log
 .env
 
 *.sublime-workspace
+
+\.DS_Store
+
+app/Http/Controllers/\.php_cs\.cache
+
+*.cache

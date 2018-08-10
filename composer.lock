@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5bca48e56bbf3a25645858fcab9c285",
+    "content-hash": "0340d4b237970b231daf9e4b783fc627",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1265,6 +1265,49 @@
                 "uuid"
             ],
             "time": "2018-01-20T00:28:24+00:00"
+        },
+        {
+            "name": "shalvah/laravel-jsend",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shalvah/laravel-jsend.git",
+                "reference": "6d188942810a334a3f57d54320c2c413f9b2ddc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shalvah/laravel-jsend/zipball/6d188942810a334a3f57d54320c2c413f9b2ddc1",
+                "reference": "6d188942810a334a3f57d54320c2c413f9b2ddc1",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^5.1",
+                "php": ">=5.6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Shalvah Adebayo",
+                    "email": "shalvah.adebayo@gmail.com"
+                }
+            ],
+            "description": "Laravel helpers to send Jsend-compliant responses",
+            "homepage": "http://shalvah.me/laravel-jsend",
+            "keywords": [
+                "jsend",
+                "json",
+                "laravel"
+            ],
+            "time": "2017-06-22T07:19:09+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
