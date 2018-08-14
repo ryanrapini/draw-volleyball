@@ -17,7 +17,6 @@ class CreatePlayersTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('name');
-            $table->string('phone')->nullable();
             $table->string('email')->nullable();
         });
     }

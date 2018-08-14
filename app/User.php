@@ -29,7 +29,11 @@ class User extends Authenticatable
 
     public function role(){
         return $this->belongsTo('App\Role')->withDefault(function ($role) {
-        $role->name = 'user';
-    });
+            $role->name = 'user';
+        });
+    }
+
+    public function teams(){
+        return $this->hasMany('App\Team');
     }
 }
